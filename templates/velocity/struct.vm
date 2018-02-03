@@ -1,0 +1,9 @@
+// velocity:
+
+package $class.packageName;
+
+public class $class.className {
+#foreach($field in $class.fields)
+    $field.type $field.name;
+#end
+}
